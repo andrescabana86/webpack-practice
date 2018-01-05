@@ -1,1 +1,3 @@
-console.log('this is index')
+import component from './component'
+
+document.body.appendChild(component())
