@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "",
-    "build": "node_modules/.bin/webpack --display-modules"
+    "build": "webpack",
+    "build:expanded": "webpack --display-modules"
   },
   "author": "andrescabana86",
   "license": "ISC",
