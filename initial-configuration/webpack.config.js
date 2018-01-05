@@ -3,7 +3,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin')
 
 const PATHS = {
     app: path.join(__dirname, 'app'),
-    build: path.join(__dirname, 'build')
+    built: path.join(__dirname, 'built')
 }
 
 module.exports = {
@@ -11,7 +11,7 @@ module.exports = {
         app: PATHS.app
     },
     output: {
-        path: PATHS.build,
+        path: PATHS.built,
         filename: '[name].js'
     },
     plugins: [
