@@ -3,10 +3,12 @@
   "version": "1.0.0",
   "description": "Multiple environments for Webpack",
   "main": "index.js",
-  "author": "andrescabana86",
+  "author": "",
   "scripts": {
     "test": "test"
   },
-  "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^3.10.0"
+  }
 }
