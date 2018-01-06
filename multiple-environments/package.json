@@ -1,0 +1,12 @@
+{
+  "name": "multiple-environments",
+  "version": "1.0.0",
+  "description": "Multiple environments for Webpack",
+  "main": "index.js",
+  "author": "andrescabana86",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "",
+  "license": "ISC"
+}
