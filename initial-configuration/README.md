@@ -24,7 +24,9 @@ This is what you need to run the project:
 
 ## Purpose of this project
 
-The purpose of this project is to setup a bundle with webpack that can works nicely with Continuous Integration (CI) and Testing. To achieve the purpose we must configurate correctly using the following criterias:
+The purpose of this project is to setup a bundle with webpack that can works nicely with Continuous Integration (CI) and Testing. To achieve the purpose we must configurate the project correctly using the following criterias:
 
 * Webpack needs to be installed as a development dependency
 * Webpack can be installed with a CI tool like Jenkins, Teamcity or equivalent
+* Assets must be generated with a plugin
+* HTML template must be generated with a plugin
