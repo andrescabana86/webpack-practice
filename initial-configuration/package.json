@@ -6,11 +6,12 @@
   "scripts": {
     "test": "",
     "build": "webpack",
-    "build:expanded": "webpack --display-modules"
+    "build:extended": "webpack --display-modules"
   },
   "author": "andrescabana86",
   "license": "ISC",
   "devDependencies": {
+    "favicons-webpack-plugin": "0.0.7",
     "html-webpack-plugin": "^2.30.1",
     "webpack": "^3.10.0"
   }

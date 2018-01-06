@@ -1,9 +1,11 @@
 const path = require('path')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
+const FaviconsWebpackPlugin = require('favicons-webpack-plugin')
 
 const PATHS = {
     app: path.join(__dirname, 'app'),
-    built: path.join(__dirname, 'built')
+    built: path.join(__dirname, 'built'),
+    favicon: path.join(__dirname, 'assets/favicon.png')
 }
 
 module.exports = {
@@ -15,6 +17,7 @@ module.exports = {
         filename: '[name].js'
     },
     plugins: [
-        new HtmlWebpackPlugin({ title: 'Webpack demo' })
+        new HtmlWebpackPlugin({ title: 'Webpack demo' }),
+        new FaviconsWebpackPlugin(PATHS.favicon)
     ]
 }
