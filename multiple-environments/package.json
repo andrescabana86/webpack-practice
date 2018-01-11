@@ -5,10 +5,15 @@
   "main": "index.js",
   "author": "",
   "scripts": {
-    "test": "test"
+    "build": "NODE_ENV=production webpack --config webpack/prod.config.js",
+    "start": "NODE_ENV=development webpack-dev-server --config webpack/dev.config.js",
+    "deploy": "npm run build && <some build script>"
   },
   "license": "ISC",
   "devDependencies": {
-    "webpack": "^3.10.0"
+    "extract-text-webpack-plugin": "^3.0.2",
+    "uglifyjs-webpack-plugin": "^1.1.6",
+    "webpack": "^3.10.0",
+    "webpack-merge": "^4.1.1"
   }
 }
